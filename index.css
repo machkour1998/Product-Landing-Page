@@ -1,0 +1,158 @@
+* {
+	box-sizing: border-box;
+}
+main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#header {
+	background-color: #e3d59c;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 199;
+}
+#nav-bar {
+	width: 50%;
+}
+#nav-bar ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 0px;
+}
+#nav-bar ul .nav-link {
+	text-decoration: none;
+	color: #9f956d;
+	font-size: 1.1em;
+}
+
+#logo {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+#logo #description-logo {
+	font-family: 'RocknRoll One', sans-serif;
+	color: #9f956d;
+	margin-left: 10px;
+}
+section {
+	width: 80%;
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#section h1 {
+	color: #6d7a9f;
+	text-align: center;
+}
+#form {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#form #submit-bouton {
+	width: 50%;
+	height: 30px;
+	font-size: 0.7em;
+	font-weight: bold;
+	background-color: #6d7a9f;
+	border: none;
+	color: white;
+}
+#form #email {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	border: #9f956d solid 1px;
+}
+#form #email:focus {
+	outline: none;
+}
+#section #services {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 70px;
+	width: 100%;
+}
+#section #services .service {
+	display: flex;
+	align-items: center;
+	width: 80%;
+}
+#section #services .service .container-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20vw;
+}
+#section #services .service .description-service {
+	width: 80vw;
+}
+#section #services .service .description-service h2 {
+	margin-bottom: 5px;
+	color: #6d7a9f;
+}
+#section #services .service .description-service p {
+	margin-top: 5px;
+}
+#video {
+	margin-top: 40px;
+	width: 60%;
+}
+#section2 #offers {
+	width: 90%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+#section2 #offers .offer {
+	width: calc(100% / 3);
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 2px #e3d59c solid;
+}
+#section2 #offers .offer .level {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #9caee3;
+}
+#section2 #offers .offer ul {
+	list-style: none;
+	padding: 0px;
+}
+#section2 #offers .offer .bouton-select {
+	margin-bottom: 15px;
+	border: none;
+	width: 40%;
+	height: 25px;
+	font-size: 0.7em;
+	background-color: rgb(251, 192, 0);
+}
+#footer {
+	width: 80%;
+	height: 50px;
+	text-align: center;
+	background-color: #e3d59c;
+	color: #9f956d;
+	font-family: 'RocknRoll One', sans-serif;
+	font-size: 0.9em;
+}
+
+/*****############### media query ##############******/

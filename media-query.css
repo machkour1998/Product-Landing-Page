@@ -1,0 +1,90 @@
+@media only screen and (max-width: 600px) {
+	#section {
+		width: 100%;
+	}
+	#section h1 {
+		margin-top: 120px;
+	}
+	#header {
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#logo {
+		display: flex;
+		justify-content: center;
+	}
+	#nav-bar ul {
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		justify-content: center;
+		align-items: center;
+	}
+	#nav-bar,
+	#logo,
+	section #video {
+		width: 100%;
+	}
+
+	#nav-bar ul .nav-link {
+		text-decoration: none;
+		color: #9f956d;
+		font-size: 1.3em;
+	}
+	#section #services .service .container-image {
+		display: none;
+	}
+	#section #services .service .description-service {
+		text-align: center;
+	}
+	#section2 #offers {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	#section2 #offers .offer {
+		max-width: 300px;
+		width: 100%;
+		margin: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border: 2px #e3d59c solid;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+	#section {
+		width: 90%;
+	}
+	section #video {
+		width: 90%;
+	}
+	#section #services .service {
+		display: flex;
+		align-items: center;
+		width: 95%;
+	}
+	#section2 #offers {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	#section2 #offers .offer {
+		max-width: 300px;
+		width: 100%;
+		margin: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border: 2px #e3d59c solid;
+	}
+}
+/*****############### media query ##############******/
